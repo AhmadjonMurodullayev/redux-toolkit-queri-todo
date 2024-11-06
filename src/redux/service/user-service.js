@@ -2,7 +2,7 @@ import { createApi } from "@reduxjs/toolkit/query/react";
 import { createBaceQuery } from "../../config/create-bace-query";
 
 export const userApi = createApi({
-  reducerPath: "user_malumot",
+  reducerPath: "user_ma",
   baseQuery: createBaceQuery(),
   tagTypes: ["kimdir"],
   endpoints: (build) => ({
